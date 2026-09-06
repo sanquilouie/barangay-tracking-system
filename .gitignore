@@ -1,0 +1,14 @@
+# Local credentials/configuration; the example contains placeholders only.
+.env
+.env.*
+!.env.example
+*.local.php
+
+# Private material must never be added to the portfolio tree.
+/private-backups/
+/quarantine/
+/audit-output/
+*.sql.bak
+*.sql.gz
+*.sql.zip
+*.log
